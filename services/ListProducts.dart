@@ -1,4 +1,4 @@
-void ListProduct(List<Map<String, String>>products) {
+void ListProduct(List<Map<String, dynamic>>products) {
   if(products.isEmpty) {
     print("No hay productos registrados");
     return;
