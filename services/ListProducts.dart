@@ -6,7 +6,7 @@ void ListProduct(List<Map<String, dynamic>>products) {
 
   print("========== LISTA DE PRODUCTOS ==========");
 
-  for (int i = 1; i < products.length; i++) {
+  for (int i = 0; i < products.length; i++) {
     print("Indice producto #$i");
     print("Nombre del producto: ${products[i]['nombre']}");
     print("precio del producto: ${products[i]['precio']}");
