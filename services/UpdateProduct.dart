@@ -1,6 +1,6 @@
 import 'dart:io';
 
-void actualizarProducto(List<Map<String, dynamic>> productos) {
+void UpdateProduct(List<Map<String, dynamic>> productos) {
   print("========== ACTUALIZAR PRODUCTO ==========");
 
   stdout.write("Digite el índice del producto: ");
