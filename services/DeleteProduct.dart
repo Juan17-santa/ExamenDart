@@ -6,7 +6,7 @@ void DeleteProduct(List<Map<String, dynamic>> products){
   stdout.write("Digite el indice del producto: ");
   int index = int.parse(stdin.readLineSync()!);
 
-  if (index <= 0 || index >= products.length || index == false) {
+  if (index < 0 || index >= products.length || index == false) {
     print("Indice invalido");
     return;
   }
